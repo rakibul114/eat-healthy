@@ -1,12 +1,31 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .flexible-container{
     display: flex;
-    margin: 40px;
+    margin: 20px;
+}
+.skip-text{
+    color: orange;
+}
+
+.hero-title{
+    line-height: 50%;
+    color: #575757;
 }
 .hero-image{
-    width: 500px;
-    
+    width: 450px;
+}
+.button-container{
+    margin-top: 49px;
+}
+.button-style{    
+    text-decoration: none;
+    color:aliceblue;
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
+    padding: 10px 20px;
+    border-radius: 50px;
 }
